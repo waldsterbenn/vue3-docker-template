@@ -14,7 +14,7 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: 8080,
-    allowedHosts: ["localhost"],
+    allowedHosts: ["localhost", "vue3-docker-template.onrender.com"],
     watch: {
       usePolling: true, // Use polling to watch for file changes
     },
