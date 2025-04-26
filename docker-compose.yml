@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build: 
+      context: ./frontend
+    volumes:
+      - ./frontend/src:/app/src
+    ports:
+      - "3000:8080"
+    develop:
+      watch:
+         - action: sync
+           path: ./src
+           target: /app/src
+         - action: rebuild
+           path: package.json
+    command: ["yarn", "dev"]

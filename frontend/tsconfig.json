@@ -1,0 +1,21 @@
+{
+  // "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "tsBuildInfoFile": "./.tsbuildinfo/tsconfig.app.tsbuildinfo",
+    "baseUrl": ".",
+    // The "paths" alias maps "@/..." to "src/..." for cleaner imports.
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
