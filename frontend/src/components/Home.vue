@@ -34,7 +34,7 @@
       </div>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Bootstrap Card</h5>
+          <h5 class="card-title">Nice Bootstrap Card</h5>
           <p class="card-text">This is an example of a Bootstrap card component used in a Vue 3 application.</p>
           <div class="card-footer">
             <button @click="navigateToCard" class="btn btn-primary">Learn More</button>
