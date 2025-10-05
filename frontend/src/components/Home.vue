@@ -19,7 +19,7 @@
 
     <h1>Welcome to the Vue 3 Docker App</h1>
     <p>This is the home page of the application. <router-link to="/about">Learn more about us</router-link></p>
-
+    <h1>goddaw a ha lig fået en ny trauder</h1>
 
     <p v-if="isMounted">This text is shown after the component is mounted.</p>
     <p v-else>This text is shown before the component is mounted.</p>
